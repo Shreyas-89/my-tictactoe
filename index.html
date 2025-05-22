@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tic Tac Toe</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="main-screen" id="mainScreen">
+    <h1>Tic Tac Toe</h1>
+    <div class="status" id="status">Player X's turn</div>
+    <div class="board" id="board">
+      <!-- Game cells will be rendered by JS -->
+    </div>
+  </div>
+
+  <div class="result-screen" id="resultScreen" style="display: none;">
+    <h2 id="resultText">Player X wins!</h2>
+    <button onclick="startNewGame()">New Game</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
